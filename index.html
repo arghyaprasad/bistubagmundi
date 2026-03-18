@@ -1,13 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>landinng page</title>
+  <meta charset="UTF-8">
+  <title>BIST College</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      background: #003366;
+      color: white;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      background: url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1') no-repeat center/cover;
+      height: 90vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 50px;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 20px;
+    }
+
+    .btn {
+      margin-top: 20px;
+      padding: 12px 25px;
+      background: #ff6600;
+      color: white;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    section {
+      padding: 50px 30px;
+      text-align: center;
+    }
+
+    .courses {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      width: 250px;
+      padding: 20px;
+      margin: 15px;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+    }
+
+    footer {
+      background: #003366;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+  </style>
 </head>
 <body>
-    <h1> hello</h1>
-    <h2>BIST</h2>
-    <h3>BCA</h3>
+
+<header>
+  <h2>BIST College</h2>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Courses</a>
+    <a href="#">Admissions</a>
+    <a href="#">Contact</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <div>
+    <h1>Welcome to BIST College</h1>
+    <p>Empowering Education for the Future</p>
+    <button class="btn">Apply Now</button>
+  </div>
+</div>
+
+<section>
+  <h2>Our Courses</h2>
+  <div class="courses">
+    <div class="card">
+      <h3>B.Tech</h3>
+      <p>Engineering programs with modern labs.</p>
+    </div>
+    <div class="card">
+      <h3>MBA</h3>
+      <p>Management courses for future leaders.</p>
+    </div>
+    <div class="card">
+      <h3>BCA</h3>
+      <p>Computer applications and IT skills.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Why Choose Us?</h2>
+  <p>Experienced faculty, modern infrastructure, and strong placement support.</p>
+</section>
+
+<footer>
+  <p>© 2026 BIST College | All Rights Reserved</p>
+</footer>
+
 </body>
 </html>
